@@ -10,7 +10,6 @@ def deutsch_jozsa(function, num_qubits):
     m2 = cirq.Moment()
 
     for qubit in qubits:
-        # print(index)
         m1 += cirq.H(qubit)
 
     circuit.append(m0)

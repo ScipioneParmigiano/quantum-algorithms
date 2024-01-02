@@ -18,9 +18,9 @@ def deutsch(function):
     results = s.simulate(circuit)
 
     if results.measurements[str(q0)] == 1:
-        return True # i.e. |1> / balanced
+        return True # i.e. |1> balanced
     else: 
-        return False # i.e. |0> / constant
+        return False # i.e. |0> constant
 
 
 def constant_function(circuit):
