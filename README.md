@@ -11,6 +11,7 @@ Here, I list the algorithms developed at the moment:
 
 ### Basic algorithms
  - Grover's Algorithm
+ - Simon's Algorithm
  - Quantum Fourier Transform
  - Inverse Quantum Fourier Transform
  - Quantum Phase Estimation
