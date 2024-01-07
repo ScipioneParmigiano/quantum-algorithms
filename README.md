@@ -8,6 +8,7 @@ Here, I list the algorithms developed at the moment:
 ### Advanced algorithms
  - Shor's algorithm
  - Discrete time Quantum Walk
+ - Pricing options with QAE
  - Tiq-taq-toe, quantum version of tic-tac-toe
 
 ### Basic algorithms
