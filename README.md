@@ -2,7 +2,7 @@
 
 As the name suggests, this repository contains the implementations of various quantum algorithms developed and simulated using Cirq (the quantum computing framework created by Google) and Qiskit (the framework from IBM).
 
-## The state of the art: Cirq
+## The state of the art:
 Here, I list the algorithms developed at the moment:
 
  - Shor's algorithm (Cirq)
