@@ -1,14 +1,13 @@
 from qiskit import QuantumCircuit, Aer, transpile
 from math import pi as pi
 
-# let  \frac{1}{\sqrt{2^n}} \sum_{y=0}^{2^n-1} e^{2 \pi i \omega} |Y> where \omega \isin R and Y is the bynary encoding of the integer y 
+# let \frac{1}{\sqrt{2^n}} \sum_{y=0}^{2^n-1} e^{2 \pi i \omega} |Y> where \omega \isin R and Y is the bynary encoding of the integer y 
 # we want to estimate \omega (and \omega \isin (0,1) without loss of generality)
 
 n = 12 # precision
 qc = QuantumCircuit(n, n-1)
 
-# initia
-# lization: X on the 4th qubit
+# initialization: X on the 4th qubit
 qc.x(n-1)
 
 # H on the counting qubits
